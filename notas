@@ -33,6 +33,10 @@ Comandos Basicos:
 	1. Archivos que fueron modificados, y
 	2. Archivos que no han sido agregados al seguimiento de git
 
+	Si queremos deshacer los cambios de un archivo y regresarlo a su 
+	estatus anterior al cambio, solo tenemos que usar este comando:
+
+	git checkout -- nombre_archivo
 * git commit
 	Sirve para pasar uno o mas archivos del staging area al repositorio.
 
