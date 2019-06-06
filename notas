@@ -44,3 +44,11 @@ Comandos Basicos:
 	Hace una copia del servidor central de todo el proyecto desde el
 	servidor central a tu equipo local.
 
+
+Trucos para Git
+------------------------------------------------------------------------------
+1. Podemos crear un archivo dentro de nuestra carpeta con el nombre .gitignore
+   y dentro de este ir poniendo los nombres de archivos y carpetas que queremos
+   que git ignore.
+
+
