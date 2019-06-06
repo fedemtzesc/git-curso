@@ -48,6 +48,13 @@ Comandos Basicos:
 	Hace una copia del servidor central de todo el proyecto desde el
 	servidor central a tu equipo local.
 
+	Para bajar un clon de nuestro proyecto usamos:
+	 git clone git@github.com:usuariogit/nombre_pryecto.git
+	Pero lo anterior solo nos descargaria el branch master
+	Si queremos descargar otro branch tenemos que usar
+	git fetch
+	git checkout --track -b nombre_branch origin/nombre_branch	
+
 
 Trucos para Git
 ------------------------------------------------------------------------------
