@@ -22,10 +22,14 @@ Comandos Basicos:
 
 * git add <file_name>
 	Sirve para agregar uno o más archivos del working directory al staging
-	area.
+	area. Al pasar a esta area ya se considera como parte de la ultima 
+	version y al hacer diff no apareceran diferencias.
 	
 * git status
-	Me muestra el estado de mis archivos con los que estoy trabajando.
+	Me muestra el estado de mis archivos con los que estoy trabajando. 
+	Muestra:
+	1. Archivos que fueron modificados, y
+	2. Archivos que no han sido agregados al seguimiento de git
 
 * git commit
 	Sirve para pasar uno o mas archivos del staging area al repositorio.
