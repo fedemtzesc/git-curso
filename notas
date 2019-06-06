@@ -55,4 +55,17 @@ Trucos para Git
    y dentro de este ir poniendo los nombres de archivos y carpetas que queremos
    que git ignore.
 
+2. Si al tratar de hacer git push origin master git no nos deja hacerlo por 
+   cuestion de llaves lo que tenemos que hacer es 
+	a) Ir a la carpeta ~/.ssh y ejecutar el siguiente comando:
+		ssh-keygen -t rsa
+	   Lo cual creara dos llaves, una privada y una con extension .pub
+	b) Le das cat nombre_llave.pub y copias el contenido
+	c) Luego vamos a nuestro perfil de github ir a la seccion 
+	   Settings > SSH and GPG keys, hacer click en New SSH key
+        d) Se abriran dos cajas de texto, en una ponemos un texto descriptivo
+	   y en la otra pegamos el texto de la llave copiada.
+	f) Finalmente volvemos a ejecutar el comando git push origin master
+
+
 
