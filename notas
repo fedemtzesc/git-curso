@@ -1,0 +1,42 @@
+Git se maneja usando 3 estados de trabajo:
+------------------------------------------------------------------------------
+
+* working directory
+	Es donde tu vas a estar trabajando localmente con todos los archivos
+	de tu proyecto.
+
+* staging area
+	Es donde se van a ir agregando todos los archivos modificados que se
+	van a preparar para subir al repositorio. Antes del commit.
+
+* repositoy
+	Es el repositorio central donde se iran guardando los ultimos archivos
+	que fueron modificados y estan listos para liberar.
+
+
+Comandos Basicos:
+------------------------------------------------------------------------------
+* git init
+	Sirve para decirle a git que vamos a crear un proyecto nuevo. Marca
+	la carpeta principal del proyecto para que git le pueda dar sequimiento
+
+* git add <file_name>
+	Sirve para agregar uno o más archivos del working directory al staging
+	area.
+	
+* git status
+	Me muestra el estado de mis archivos con los que estoy trabajando.
+
+* git commit
+	Sirve para pasar uno o mas archivos del staging area al repositorio.
+
+* git push
+	Sirve para subir uno o mas archivos a un repositorio remoto.
+	
+* git pull
+	Sirve para bajar los archivos con cambios del repositorio remoto.
+	
+* git clone
+	Hace una copia del servidor central de todo el proyecto desde el
+	servidor central a tu equipo local.
+
