@@ -36,10 +36,14 @@ Comandos Basicos:
 
 * git push
 	Sirve para subir uno o mas archivos a un repositorio remoto.
+ 	Los comandos para subir los archivos a un repositorio remoto son:
+	git remote add origin git@github.com:fedemtzesc/nombre_proyecto.git
+	git push origin nombre_branch
 	
 * git pull
 	Sirve para bajar los archivos con cambios del repositorio remoto.
-	
+	El comando para bajar los ultimos cambios del server remoto es:
+	git pull origin nombre_branch
 * git clone
 	Hace una copia del servidor central de todo el proyecto desde el
 	servidor central a tu equipo local.
