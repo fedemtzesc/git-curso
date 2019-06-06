@@ -24,6 +24,8 @@ Comandos Basicos:
 	Sirve para agregar uno o más archivos del working directory al staging
 	area. Al pasar a esta area ya se considera como parte de la ultima 
 	version y al hacer diff no apareceran diferencias.
+
+	El comando para agregar multiples archivos es: git add . (espacio punto)
 	
 * git status
 	Me muestra el estado de mis archivos con los que estoy trabajando. 
